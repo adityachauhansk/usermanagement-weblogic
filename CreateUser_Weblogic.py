@@ -22,8 +22,8 @@ desc=[row.split(',')[2] for row in rows[1:]]
 
 # Supply weblogic Admin Credentials
 adminURL='host:port'
-adminUserName='consult'
-adminPassword='consult12'
+adminUserName='*'
+adminPassword='*'
 
 #connect to weblogic using supplied credentials
 connect(adminUserName, adminPassword, adminURL)
